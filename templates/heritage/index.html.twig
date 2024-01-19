@@ -1,0 +1,18 @@
+{% extends 'heritage.html.twig' %}
+
+{% block titreDuDocument %}
+    Nouveau du document
+{% endblock %}
+
+{% block corpDuDocument %}
+     {{
+
+      parent()
+
+     }}
+    <ol>
+
+        <li>Niveau ligne</li>
+        <li> Mon meilleur Ami </li>
+    </ol>
+{% endblock %}
